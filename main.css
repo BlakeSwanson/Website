@@ -1,0 +1,214 @@
+.text {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    flex-basis: 100%;
+}
+
+.top-container {
+    min-height: 475px;
+}
+
+.sites-50{
+    display: flex;
+    flex-flow: row wrap;
+    flex-basis: calc(100% / 4 - 10px);
+}
+
+.sites-colums{
+    display: flex;
+    flex-flow: column wrap;
+    flex-basis: calc(100% / 3 - 5px);
+}
+
+.position-fixed {
+    position: fixed;
+}
+
+.header-logo {
+    display: flex;
+    flex-flow: row wrap;
+    max-height: 75px;
+    margin-right: 10px;
+}
+
+.header-bar {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #EFEFEF;
+    /* border-bottom: 1px solid black; */
+}
+
+.main-nav {
+    display: flex;
+    flex-flow: row wrap;
+    flex-basis: 40%;
+    justify-content: space-evenly;
+    line-height: 85px;
+}
+
+.nav-text {
+    font-size: 22px;
+    color: #2D3142;
+}
+
+.login {
+    line-height: 85px;
+}
+
+.user-img {
+    background-color:#BFC0C0;
+    border-radius: 100px 100px 100px 100px;
+    margin-left: 55px;
+    max-height: 55px;
+}
+
+.margin-right-55 {
+    margin-right: 55px;
+}
+
+.margin-left {
+    margin-left: 35px; 
+}
+
+.background-img {
+    background-size: contain;
+    background: 
+    url("Images/ShaftLogo copy.png") right/contain no-repeat,
+    url("Images/header4-01 copy.png") no-repeat;
+    display: flex;
+    flex-basis: 100%;
+    height: 475px;
+}
+
+.main-img-text {
+    font-size: 40px;
+    color: white;
+}
+
+.sec-img-text {
+    font-size: 30px;
+    color:white;
+    text-align: center;
+}
+
+.main-img-btn{ 
+    display: flex;
+    flex-flow: row wrap;
+    flex-basis: 25%;
+}
+
+.img-text-container {
+    display: flex;
+    flex-flow: column wrap;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 50px;
+}
+
+.top-background-img {
+    background: url("Images/ShaftLogo copy.png");
+    display: flex;
+    flex-basis: 50%;
+    height: 375px;
+}
+
+
+.sites-text {
+    flex-basis: 20%;
+    font-size: 38px;
+    color: white;
+}
+
+.site-size {
+    display: flex;
+    flex-flow: row wrap;
+    flex-basis: auto;
+    max-height: 50px;
+}
+
+.adidas {
+    display: flex;
+    flex-flow: row wrap;
+    flex-basis: auto;
+    max-height: 115px;
+}
+
+.sites-background {
+    background: #C1B2DB;
+    flex-basis: 100%;
+    height: 450px;
+}
+
+.hibbet {
+    display: flex;
+    flex-flow: row wrap;
+    flex-basis: auto;
+    max-height: 115px;
+}
+
+.footlocker {
+    display: flex;
+    flex-flow: row wrap;
+    flex-basis: 50%;
+    max-height: 150px;
+}
+
+.test-column-wrap {
+    flex-flow: column wrap;
+    flex-basis: auto;
+    padding-left: 45px;
+    padding-top: 25px;
+}
+
+.test-rowwrap {
+    flex-flow: column;
+    flex-basis: calc(100% / 3 );
+    padding-top: 85px;
+    padding-left: 100px;
+}
+
+.sitelist-margin-top{
+    margin-top: 10px;
+}
+
+.sitelist-margin-bottom{
+    margin-bottom: 10px;
+}
+
+.text-small {
+    font-size: 28px;
+}
+
+.margin-top {
+    margin-top: 42px;
+}
+
+/* .features-background {
+    background: #C993FF;
+    flex-basis: 100%;
+    height: 650px;
+} */
+
+.flex-grid {
+    display: flex;
+  }
+
+  .col {
+    flex: 3;
+  }
+
+  .flex-grid-thirds {
+    display: flex;
+    justify-content: space-between;
+  }
+  .flex-grid-thirds .col {
+    width: 32%;
+  }
+
+  .features-icons{
+      max-height: 150px;
+  }
